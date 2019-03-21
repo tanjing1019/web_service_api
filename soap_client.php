@@ -1,6 +1,6 @@
 <?php   
 
-$soap = new SoapClient(null, array('location'=>'http://localhost/php_webservice/server.php','uri' =>'http://soap/'));     
+$soap = new SoapClient(null, array('location'=>'http://localhost/php_webservice/web_service_api/soap_server.php','uri' =>'http://soap/'));     
   
 echo $soap->show();   
 //得到：'the data you request!'   
